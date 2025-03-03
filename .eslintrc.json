@@ -3,8 +3,11 @@
   "settings": {
     /* Support tailwind rules inside class utility functions */
     "tailwindcss": {
-      "callees": ["clsx", "cva", "cn"],
       "config": "tailwind.config.ts"
     }
+  },
+  "plugins": ["tailwindcss-classnames-order"],
+  "rules": {
+    "tailwindcss-classnames-order/order": "error"
   }
 }
