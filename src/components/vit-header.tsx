@@ -33,7 +33,7 @@ export function VitHeader({ className }: VitHeaderProps) {
             <NavItem href="/affiliates" label="Affiliates" />
             <NavItem href="/contact" label="Contact" />
           </nav>
-          <div className="flex items-center text-base gap-2.5 hidden lg:flex">
+          <div className="items-center text-base gap-2.5 hidden lg:flex">
             <a href="https://www.facebook.com/virtualizedit" className="hover:text-accent">
               <svg
                 width={100}

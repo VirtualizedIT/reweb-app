@@ -24,7 +24,7 @@ export function VitFeatureCard({
   return (
     <Card className={cn("bg-card", className)}>
       <CardContent className="flex flex-col items-start gap-5 p-7">
-        <div className="inline-flex items-center justify-center rounded-md border border-border p-2 text-center h-14 w-14 bg-muted-foreground/30">
+        <div className="inline-flex items-center justify-center rounded-md border border-border p-2 text-center size-14 bg-muted-foreground/30">
           <h2 className="text-muted-foreground text-3xl">{letter1}</h2>
           <h2 className="text-3xl text-accent">{letter2}</h2>
         </div>

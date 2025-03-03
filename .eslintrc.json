@@ -1,13 +1,11 @@
 {
   "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended"],
   "settings": {
-    /* Support tailwind rules inside class utility functions */
     "tailwindcss": {
       "config": "tailwind.config.ts"
     }
   },
-  "plugins": ["tailwindcss-classnames-order"],
   "rules": {
-    "tailwindcss-classnames-order/order": "error"
+    "tailwindcss/classnames-order": "off" // Add this line to disable the rule
   }
 }

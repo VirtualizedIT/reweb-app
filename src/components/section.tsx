@@ -36,7 +36,7 @@ export function Section() {
           </div>
         </div>
       </section>
-      <section className="p-2 bm-8">
+      <section className="p-2 mb-8">
         <div className="container flex flex-col items-center gap-6 py-24 sm:gap-7 border rounded-md bg-background border-border">
           <div className="flex flex-col gap-3 items-center">
             <span className="font-bold uppercase text-center text-accent">our core Services</span>
