@@ -1,7 +1,5 @@
 import Link from "next/link";
-import { Bot, LayoutPanelLeft, Download, Sparkles, Frame, Globe, BrainCircuit } from "lucide-react";
 import Image from "next/image";
-
 import { VitHeader } from "@/components/vit-header";
 import { VitBreadcrumbs } from "@/components/vit-breadcrumbs";
 import { Button } from "@/components/ui/button";
@@ -9,6 +7,7 @@ import { VitFeatureCard } from "@/components/vit-feature-card";
 import { Carousel, CarouselContent } from "@/components/ui/carousel";
 import { CarouselFeatureCard } from "@/components/carousel-feature-card";
 import { VitFooter } from "@/components/vit-footer";
+import { Bot, LayoutPanelLeft, Download, Sparkles, Frame, Globe, BrainCircuit } from "lucide-react";
 
 export function Section() {
   return (
@@ -165,7 +164,7 @@ export function Section() {
               height={180}
             />
             <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance max-w-xl sm:leading-tight text-center text-primary-foreground">
-              Crafting Seamless&lt;div&gt;E-Learning Experiences&lt;/div&gt;
+              Crafting Seamless <br/> E-Learning Experiences
             </h2>
             <p className="max-w-xl text-lg text-primary-foreground/80 text-center">
               Designing and Implementing fully integrated E-Learning management solutions for
