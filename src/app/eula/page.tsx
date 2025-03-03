@@ -1,9 +1,9 @@
-import { Section14 } from "@/components/section-14";
+import { Section12 } from "@/components/section-12";
 
 export default function EulaPage() {
   return (
     <>
-      <Section14 />
+      <Section12 />
     </>
   );
 }

@@ -1,9 +1,9 @@
-import { Section5 } from "@/components/section-5";
+import { Section6 } from "@/components/section-6";
 
 export default function LearningPage() {
   return (
     <>
-      <Section5 />
+      <Section6 />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { Bot, LayoutPanelLeft, Download, Sparkles, Frame, Globe, BrainCircuit } 
 import Image from "next/image";
 
 import { VitHeader } from "@/components/vit-header";
+import { VitBreadcrumbs } from "@/components/vit-breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { VitFeatureCard } from "@/components/vit-feature-card";
 import { Carousel, CarouselContent } from "@/components/ui/carousel";
@@ -11,15 +12,16 @@ import { VitFooter } from "@/components/vit-footer";
 
 export function Section() {
   return (
-    <main className="bg-current p-4">
+    <main className="p-4 bg-black">
       <VitHeader />
-      <section className="p-2">
-        <div className="container flex flex-col items-center gap-8 rounded-lg border border-muted-foreground bg-white pb-10 pt-20 sm:gap-10">
-          <div className="flex flex-col items-center gap-3">
-            <h1 className="max-w-2xl text-center font-heading text-4xl font-semibold tracking-tight sm:text-5xl">
+      <VitBreadcrumbs label="Home" href="/" />
+      <section className="mb-8">
+        <div className="flex flex-col items-center container gap-8 sm:gap-10 pt-20 pb-10 border rounded-md border-border bg-foreground">
+          <div className="flex flex-col gap-3 items-center">
+            <h1 className="max-w-2xl text-center font-heading text-4xl font-semibold sm:text-5xl tracking-tight text-background">
               We are a Digital Presence Management Agency&nbsp;
             </h1>
-            <p className="max-w-lg text-center text-lg text-muted-foreground sm:text-xl">
+            <p className="max-w-lg text-center text-lg sm:text-xl text-muted">
               We focus on building long term relationships with clients looking for a more
               service-oriented solution.
             </p>
@@ -28,22 +30,22 @@ export function Section() {
             <Button size="lg" asChild variant="outline" className="cursor-pointer border-border">
               <Link href="#">Learn More</Link>
             </Button>
-            <Button size="lg" asChild className="cursor-pointer">
+            <Button size="lg" asChild className="cursor-pointer border-border hover:bg-background">
               <Link href="#">Get Started</Link>
             </Button>
           </div>
         </div>
       </section>
-      <section className="p-2">
-        <div className="container flex flex-col items-center gap-6 rounded-lg border border-muted-foreground bg-current py-24 sm:gap-7">
-          <div className="flex flex-col items-center gap-3">
-            <span className="text-center font-bold uppercase text-primary">our core Services</span>
-            <h2 className="text-balance text-center font-heading text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+      <section className="p-2 bm-8">
+        <div className="container flex flex-col items-center gap-6 py-24 sm:gap-7 border rounded-md bg-background border-border">
+          <div className="flex flex-col gap-3 items-center">
+            <span className="font-bold uppercase text-center text-accent">our core Services</span>
+            <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center text-foreground">
               Build fast and stay flexible
             </h2>
           </div>
           <div className="flex flex-col items-center">
-            <p className="max-w-xl text-balance text-center text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground text-balance max-w-xl text-center">
               Reweb brings the best of two worlds together: the speed of development of no-code
               tools, and the flexibility of code.
             </p>
@@ -94,41 +96,46 @@ export function Section() {
           </div>
         </div>
       </section>
-      <section className="p-2">
-        <div className="container rounded-lg border border-muted-foreground bg-primary">
+      <section className="p-2 mb-8">
+        <div className="container bg-primary border rounded-md border-border">
           <div className="flex flex-col items-center gap-6 px-6 py-24 sm:gap-10">
             <Image alt="Image" src="/images/Agency-Artboard-1.svg" width={500} height={500} />
-            <h2 className="max-w-xl text-balance text-center font-heading text-3xl font-semibold tracking-tight text-primary-foreground sm:text-4xl sm:leading-tight">
+            <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance max-w-xl sm:leading-tight text-center text-primary-foreground">
               Customer Relationship Management Platform
             </h2>
-            <p className="max-w-xl text-center text-lg text-primary-foreground/80">
+            <p className="max-w-xl text-lg text-center text-accent-foreground/80">
               Our Platform Includes Learning Management - Community Hosting - Client Management and
               Engagement - Marketing Management including Email, Text, and Social - Workflow
               Automation - Payment Processing and so much more
             </p>
-            <Button size="lg" asChild variant="outline" className="cursor-pointer border-border">
+            <Button
+              size="lg"
+              asChild
+              variant="outline"
+              className="cursor-pointer border-border hover:bg-foreground hover:text-background"
+            >
               <Link href="#">Get Started</Link>
             </Button>
           </div>
         </div>
       </section>
-      <section className="p-2">
-        <div className="container flex flex-col items-center gap-6 rounded-lg border border-muted-foreground bg-current py-24 sm:gap-7">
-          <div className="flex flex-col items-center gap-3">
-            <span className="text-center font-bold uppercase text-primary">PROCESS</span>
-            <h2 className="flex flex-col items-center text-balance text-center font-heading text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+      <section className="p-2 mb-8">
+        <div className="container flex flex-col items-center gap-6 py-24 sm:gap-7 border rounded-md border-border bg-muted">
+          <div className="flex flex-col gap-3 items-center">
+            <span className="font-bold uppercase text-center text-accent">PROCESS</span>
+            <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center flex items-center flex-col text-foreground">
               Our process for delivering success
             </h2>
-            <p className="flex max-w-xl flex-col items-center text-balance text-center text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground text-balance max-w-xl text-center flex flex-col items-center">
               VirtualizedIT brings our knowledge of today&apos;s most innovative platforms to tailor
               custom solutions for our clients.
             </p>
           </div>
           <Carousel
             opts={{ loop: true, align: "start" }}
-            className="mt-6 block w-full px-4 xl:px-0"
+            className="mt-6 w-full px-4 xl:px-0 block"
           >
-            <CarouselContent className="flex flex-col pb-4 lg:flex-row">
+            <CarouselContent className="pb-4 flex flex-col lg:flex-row">
               <CarouselFeatureCard
                 icon={Download}
                 title="Understand"
@@ -148,8 +155,8 @@ export function Section() {
           </Carousel>
         </div>
       </section>
-      <section className="p-2">
-        <div className="container rounded-lg border border-muted-foreground bg-primary">
+      <section className="p-2 mb-8">
+        <div className="container border bg-primary rounded-md border-border">
           <div className="flex flex-col items-center gap-6 px-6 py-24 sm:gap-10">
             <Image
               alt="VirtualizedIT Learning Logo"
@@ -157,20 +164,32 @@ export function Section() {
               width={350}
               height={180}
             />
-            <h2 className="max-w-xl text-balance text-center font-heading text-3xl font-semibold tracking-tight text-primary-foreground sm:text-4xl sm:leading-tight">
-              Crafting Seamless <br /> E-Learning Experiences
+            <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance max-w-xl sm:leading-tight text-center text-primary-foreground">
+              Crafting Seamless&lt;div&gt;E-Learning Experiences&lt;/div&gt;
             </h2>
-            <p className="max-w-xl text-center text-lg text-primary-foreground/80">
+            <p className="max-w-xl text-lg text-primary-foreground/80 text-center">
               Designing and Implementing fully integrated E-Learning management solutions for
               passion-driven educators.
             </p>
-            <Button size="lg" asChild variant="outline" className="cursor-pointer border-border">
+            <Button
+              size="lg"
+              asChild
+              variant="outline"
+              className="cursor-pointer border-border hover:bg-foreground hover:text-background"
+            >
               <Link href="#">Learn More</Link>
             </Button>
           </div>
         </div>
       </section>
-      <VitFooter className="p-2" />
+      <VitFooter
+        facebookLink=""
+        instagramLink=""
+        xLink=""
+        linkedInLink=""
+        youTubeLink=""
+        className="p-2"
+      />
     </main>
   );
 }

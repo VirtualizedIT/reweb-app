@@ -1,9 +1,9 @@
-import { Section12 } from "@/components/section-12";
+import { Section2 } from "@/components/section-2";
 
 export default function DisclaimerPage() {
   return (
     <>
-      <Section12 />
+      <Section2 />
     </>
   );
 }

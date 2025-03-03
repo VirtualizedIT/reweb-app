@@ -1,9 +1,9 @@
-import { Section8 } from "@/components/section-8";
+import { Section5 } from "@/components/section-5";
 
 export default function AgencyPage() {
   return (
     <>
-      <Section8 />
+      <Section5 />
     </>
   );
 }

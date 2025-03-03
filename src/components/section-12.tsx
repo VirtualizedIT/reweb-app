@@ -1,14 +1,14 @@
 import { VitHeader } from "@/components/vit-header";
+import { VitBreadcrumbs } from "@/components/vit-breadcrumbs";
 import { VitFooter } from "@/components/vit-footer";
 
 export function Section12() {
   return (
-    <main className="p-4">
+    <main className="p-4 bg-black">
       <VitHeader />
-      <h2 className="text-balance font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
-        Disclaimer
-      </h2>
-      <VitFooter />
+      <VitBreadcrumbs label="EULA" href="/eula" />
+      <div className="container border border-border rounded-md mb-8 py-10" />
+      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
     </main>
   );
 }

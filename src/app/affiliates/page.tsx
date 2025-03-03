@@ -1,9 +1,9 @@
-import { Section7 } from "@/components/section-7";
+import { Section13 } from "@/components/section-13";
 
 export default function AffiliatesPage() {
   return (
     <>
-      <Section7 />
+      <Section13 />
     </>
   );
 }

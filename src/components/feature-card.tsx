@@ -1,4 +1,6 @@
 import { LucideProps } from "lucide-react";
+
+import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
 interface FeatureCardProps {
@@ -12,14 +14,16 @@ interface FeatureCardProps {
 
 export function FeatureCard({ title, description, icon: Icon, className }: FeatureCardProps) {
   return (
-    <div className={cn("flex items-start gap-4", className)}>
-      <div className="rounded-lg bg-secondary p-3">
-        <Icon size={24} className="text-primary" />
-      </div>
-      <div>
-        <h3 className="mb-2 text-xl font-semibold">{title}</h3>
-        <p className="text-muted-foreground">{description}</p>
-      </div>
-    </div>
+    <Card className={className}>
+      <CardContent className="flex flex-col items-start gap-5 p-7">
+        <div className="inline-flex items-center justify-center rounded-md border border-border p-2 bg-card">
+          <Icon size={28} className="text-accent" />
+        </div>
+        <div>
+          <h4 className="mb-2 text-lg font-semibold text-card-foreground">{title}</h4>
+          <p className="text-muted-foreground">{description}</p>
+        </div>
+      </CardContent>
+    </Card>
   );
 }
