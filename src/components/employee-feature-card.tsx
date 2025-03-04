@@ -2,6 +2,7 @@ import { CarouselItem } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { LucideProps } from "lucide-react";
+import Image from "next/image";
 
 interface EmployeeFeatureCardProps {
   title: string;
@@ -24,7 +25,7 @@ export function EmployeeFeatureCard({
         <Card className="h-full shadow-md text-card">
           <CardContent className="flex flex-col items-start gap-5 p-7">
             <div className="inline-flex items-center justify-center rounded-md border border-border p-2">
-              <img
+              <Image
                 alt="Image of Employee"
                 src="/images/company-page-geoff.webp"
                 height={0}
