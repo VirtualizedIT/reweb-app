@@ -1,25 +1,12 @@
 import Link from "next/link";
-
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 
 interface VitFooterProps {
-  facebookLink: string;
-  instagramLink: string;
-  xLink: string;
-  linkedInLink: string;
-  youTubeLink: string;
   className?: string;
 }
 
-export function VitFooter({
-  facebookLink,
-  instagramLink,
-  xLink,
-  linkedInLink,
-  youTubeLink,
-  className,
-}: VitFooterProps) {
+export function VitFooter({ className }: VitFooterProps) {
   return (
     <footer className={cn("p-2", className)}>
       <div className="container block border rounded-md bg-foreground border-border">
@@ -126,7 +113,7 @@ export function VitFooter({
               href="/cookie"
               className="text-xs sm:text-center text-background hover:text-accent"
             >
-              Cookie Policy&lt;br&gt;
+              Cookie Policy
             </Link>
             <Link
               href="/disclaimer"
@@ -135,7 +122,7 @@ export function VitFooter({
               Disclaimer
             </Link>
             <Link href="/eula" className="text-xs sm:text-center text-background hover:text-accent">
-              EULA&lt;br&gt;&lt;br&gt;
+              EULA
             </Link>
           </div>
         </div>
