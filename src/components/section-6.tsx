@@ -1,3 +1,5 @@
+// Learning Page section-6.tsx //
+
 import Link from "next/link";
 import { GraduationCap, ServerCog, LayoutTemplate } from "lucide-react";
 

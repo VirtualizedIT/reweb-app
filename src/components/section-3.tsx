@@ -1,3 +1,5 @@
+// Component section-3.tsx //
+
 import Link from "next/link";
 import Image from "next/image";
 import { Frame } from "lucide-react";

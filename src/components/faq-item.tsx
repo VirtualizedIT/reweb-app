@@ -3,21 +3,23 @@ import { PricingCard } from "@/components/pricing-card";
 import { cn } from "@/lib/utils";
 
 interface FaqItemProps {
+  letter1: string;
+  letter2: string;
   question: string;
   answer: string;
   className?: string;
 }
 
-export function FaqItem({ question, answer, className }: FaqItemProps) {
+export function FaqItem({ letter1, letter2, question, answer, className }: FaqItemProps) {
   return (
     <AccordionItem value={question} className={cn("border-b-0", className)}>
       <div className="flex gap-8 items-center">
         <div className="flex items-center gap-0 p-4 w-16 max-h-16">
           <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-muted-foreground">
-            A
+            {letter1}
           </h2>
           <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-accent">
-            I
+            {letter2}
           </h2>
         </div>
         <div className="flex flex-col ml-8">

@@ -1,3 +1,5 @@
+// EULA Page section-12.tsx //
+
 import { VitHeader } from "@/components/vit-header";
 import { VitBreadcrumbs } from "@/components/vit-breadcrumbs";
 import { VitFooter } from "@/components/vit-footer";

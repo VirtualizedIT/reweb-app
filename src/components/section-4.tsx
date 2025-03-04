@@ -1,3 +1,5 @@
+// Services Page section-4.tsx //
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -56,22 +58,32 @@ export function Section4() {
         </p>
         <Accordion type="single" collapsible className="mt-6 w-full divide-y max-w-3xl">
           <FaqItem
+            letter1="F"
+            letter2="Q"
             answer="Collaboratively develop customized learning management solutions that optimize student engagement, establish student accountability and evaluate student performance."
             question="Learning Management Solutions"
           />
           <FaqItem
+            letter1="R"
+            letter2="W"
             answer="Reweb is built on top of popular technologies that most frontend developers are familiar with. You don't have to learn new mental models or frameworks. If you're familiar with HTML, React & Tailwind, building with Reweb will feel like writing code but visually."
             question="What is the learning curve for Reweb?"
           />
           <FaqItem
+            letter1="I"
+            letter2="H"
             answer="Yes, we care a lot about giving you code that you can easily mantain and customize. If you're familiar with Next.js and Tailwind, the code will be very familiar and you'll be able to customize it with no issues."
             question="Is the generated code high quality?"
           />
           <FaqItem
+            letter1="D"
+            letter2="Y"
             answer="Yes! We're planning to add a lot more sections and templates for landing pages & marketing websites. If you have specific requests, feel free to ask in our Discord."
             question="Do you plan to add more sections and templates?"
           />
           <FaqItem
+            letter1="W"
+            letter2="E"
             answer="Yes, the exported website will look exactly like you see in the editor and in the preview."
             question="Will the exported website look exactly like the preview?"
           />

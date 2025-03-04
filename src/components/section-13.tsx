@@ -1,3 +1,5 @@
+// Affiliates Page section-13.tsx //
+
 import {
   Frame,
   Gauge,
