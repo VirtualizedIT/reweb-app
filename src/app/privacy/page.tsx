@@ -1,4 +1,4 @@
-// Privacy Page section-10.tsx //
+// Privacy Page //
 
 'use client';
 
