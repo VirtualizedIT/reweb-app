@@ -53,3 +53,83 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+
+/* Termageddon Policy CSS 
+If you are using our (new) css compatibility mode (under 'view embed code' -> 'advanced' button), you need to use the #policy_embed_div ID Selector instead of the #policy selector. */
+
+#policy h2 {
+  color: var(--color-vit-brand);
+  font-family: "Poppins", system-ui;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy h3 {
+  color: var(--color-vit-brand);
+  font-family: "Poppins", system-ui;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy h4 {
+  font-family: "Poppins", system-ui;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy h5 {
+  font-family: "Poppins", system-ui;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy p {
+  font-family: "Poppins", system-ui;
+  font-size: 14px;
+  margin-top: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy .accordion-heading {
+  font-family: "Poppins", system-ui;
+  font-size: 16px;
+}
+ 
+#policy .accordion-section-content {
+  font-family: "Poppins", system-ui;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy table {
+  border: 1px solid var(--color-vit-dark);
+  vertical-align: bottom;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy ul {
+  font-family: "Poppins", system-ui;
+  font-size: 14px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy li {
+  font-family: "Poppins", system-ui;
+  font-size: 14px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#policy a {
+  color: var(--color-vit-brand);
+}

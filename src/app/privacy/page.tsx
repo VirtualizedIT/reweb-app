@@ -1,11 +1,24 @@
 // Privacy Page section-10.tsx //
 
-import { Section10 } from "@/components/section-10";
+'use client';
 
-export default function PrivacyPage() {
+import { VitHeader } from "@/components/vit-header";
+import { VitBreadcrumbs } from "@/components/vit-breadcrumbs";
+import { VitFooter } from "@/components/vit-footer";
+import type { NextPage } from 'next';
+import Policy from '../../components/shared/Policy';
+
+const PrivacyPage: NextPage = () => {
   return (
-    <>
-      <Section10 />
-    </>
+    <main className="p-4 bg-background">
+    <VitHeader />
+    <VitBreadcrumbs label="Privacy" href="/privacy" />
+    <div className="container border border-border rounded-md mb-8 py-10" >
+      <Policy policyKey="ZEVSSWNEWXdMekZzVGtKNWVrRTlQUT09" />
+    </div>
+    <VitFooter/>
+  </main>
   );
-}
+};
+
+export default PrivacyPage;
