@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+
 import { NavItem } from "@/components/nav-item";
 import { MobileNavbar } from "@/components/mobile-navbar";
 import { MobileNavItem } from "@/components/mobile-nav-item";

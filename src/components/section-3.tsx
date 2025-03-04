@@ -75,7 +75,11 @@ export function Section3() {
         <Carousel opts={{ loop: true, align: "start" }} className="mt-6 w-full px-4 xl:px-0">
           <CarouselPrevious className="-left-6 size-7 xl:-left-12 xl:size-8" />
           <CarouselContent className="pb-4">
-            <EmployeeFeatureCard title="Geoffrey White" description="Founder and Owner" />
+            <EmployeeFeatureCard
+              icon={Frame}
+              title="Geoffrey White"
+              description="Founder and Owner"
+            />
           </CarouselContent>
           <CarouselNext className="-right-6 size-7 xl:-right-12 xl:size-8" />
         </Carousel>
