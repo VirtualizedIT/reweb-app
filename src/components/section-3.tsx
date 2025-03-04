@@ -136,7 +136,7 @@ export function Section3() {
           <CarouselNext className="-right-6 size-7 xl:-right-12 xl:size-8" />
         </Carousel>
       </section>
-      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
+      <VitFooter/>
     </main>
   );
 }

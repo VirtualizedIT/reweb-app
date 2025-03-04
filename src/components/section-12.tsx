@@ -8,7 +8,7 @@ export function Section12() {
       <VitHeader />
       <VitBreadcrumbs label="EULA" href="/eula" />
       <div className="container border border-border rounded-md mb-8 py-10" />
-      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
+      <VitFooter/>
     </main>
   );
 }

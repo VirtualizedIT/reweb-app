@@ -77,7 +77,7 @@ export function Section4() {
           />
         </Accordion>
       </section>
-      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
+      <VitFooter/>
     </main>
   );
 }

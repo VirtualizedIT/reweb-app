@@ -8,7 +8,7 @@ export function Section10() {
       <VitHeader />
       <VitBreadcrumbs label="Privacy" href="/privacy" />
       <div className="container border border-border rounded-md mb-8 py-10" />
-      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
+      <VitFooter/>
     </main>
   );
 }

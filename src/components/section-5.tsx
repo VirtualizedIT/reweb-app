@@ -109,7 +109,7 @@ export function Section5() {
           </form>
         </div>
       </section>
-      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
+      <VitFooter/>
     </main>
   );
 }

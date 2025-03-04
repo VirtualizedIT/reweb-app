@@ -197,7 +197,7 @@ export function Section6() {
           </Button>
         </div>
       </section>
-      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
+      <VitFooter/>
     </main>
   );
 }

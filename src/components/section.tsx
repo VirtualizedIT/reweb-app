@@ -182,14 +182,7 @@ export function Section() {
           </div>
         </div>
       </section>
-      <VitFooter
-        facebookLink=""
-        instagramLink=""
-        xLink=""
-        linkedInLink=""
-        youTubeLink=""
-        className="p-2"
-      />
+      <VitFooter/>
     </main>
   );
 }

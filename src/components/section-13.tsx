@@ -198,7 +198,7 @@ export function Section13() {
           </TooltipProvider>
         </div>
       </section>
-      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
+      <VitFooter/>
     </main>
   );
 }

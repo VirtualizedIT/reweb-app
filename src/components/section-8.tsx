@@ -108,7 +108,7 @@ export function Section8() {
           </div>
         </div>
       </section>
-      <VitFooter facebookLink="" instagramLink="" xLink="" linkedInLink="" youTubeLink="" />
+      <VitFooter/>
     </main>
   );
 }
