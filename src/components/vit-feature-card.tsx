@@ -1,24 +1,19 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { LucideProps } from "lucide-react";
 
 interface VitFeatureCardProps {
-  title: string;
-  description: string;
-  icon: React.ForwardRefExoticComponent<
-    Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
-  >;
   letter1: string;
   letter2: string;
+  title: string;
+  description: string;
   className?: string;
 }
 
 export function VitFeatureCard({
-  title,
-  description,
-  icon: Icon,
   letter1,
   letter2,
+  title,
+  description,
   className,
 }: VitFeatureCardProps) {
   return (

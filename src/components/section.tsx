@@ -54,45 +54,39 @@ export function Section() {
           </div>
           <div className="mt-6 grid auto-rows-fr grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
             <VitFeatureCard
-              icon={Bot}
-              title="Artificial Intelligence"
               letter1="A"
               letter2="I"
+              title="Artificial Intelligence"
               description="AI  Integration and Automation"
             />
             <VitFeatureCard
-              icon={LayoutPanelLeft}
-              title="Customer Relationship "
               letter1="C"
               letter2="R"
+              title="Customer Relationship "
               description="Customer Relationship Management Systems"
             />
             <VitFeatureCard
-              icon={Download}
-              title="Digital Presence"
               letter1="D"
               letter2="P"
+              title="Digital Presence"
               description="Digital Marketing Solutions"
             />
             <VitFeatureCard
-              icon={Sparkles}
-              title="Learning Management"
               letter1="L"
               letter2="M"
+              title="Learning Management"
               description="Learning Management Solutions"
             />
             <VitFeatureCard
-              icon={Frame}
-              title="Social Media"
               letter1="S"
               letter2="M"
+              title="Social Media"
               description="Social Media and Search"
             />
             <VitFeatureCard
-              icon={Globe}
-              title="Web Design"
               letter1="W"
               letter2="D"
+              title="Web Design"
               description="Web Design"
             />
           </div>
