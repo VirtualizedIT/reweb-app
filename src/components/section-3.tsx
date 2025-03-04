@@ -57,8 +57,10 @@ export function Section3() {
             <p className="text-lg text-balance text-background" />
           </div>
         </div>
+      </section>
+      <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7 mb-8 border border-border rounded-md bg-accent">
         <div>
-          <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center pt-20 text-background">
+          <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center text-foreground">
             It is our mission to help businesses learn to better utilize today&apos;s wide array of
             technology solutions.
           </h2>
