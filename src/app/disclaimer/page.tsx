@@ -1,3 +1,5 @@
+// Disclaimer Page section-2.tsx //
+
 import { Section2 } from "@/components/section-2";
 
 export default function DisclaimerPage() {
