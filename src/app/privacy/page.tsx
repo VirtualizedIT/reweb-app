@@ -14,6 +14,7 @@ const PrivacyPage: NextPage = () => {
     <VitHeader />
     <VitBreadcrumbs label="Privacy" href="/privacy" />
     <div className="container border border-border rounded-md mb-8 py-10" >
+      <h2 className="text-accent text-3xl font-bold">Privacy Policy</h2>
       <Policy policyKey="ZEVSSWNEWXdMekZzVGtKNWVrRTlQUT09" />
     </div>
     <VitFooter/>

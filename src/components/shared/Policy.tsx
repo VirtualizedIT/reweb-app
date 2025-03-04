@@ -35,7 +35,7 @@ const Policy = ({ policyKey }: Props) => {
   return (
     <div
       id='policy'
-      data-extra='h-align=left&h-depth=3&table-style=accordion'
+      data-extra='email-links=true&h-align=left&h-depth=3&no-title=true&table-style=accordion'
     />
   );
 };
